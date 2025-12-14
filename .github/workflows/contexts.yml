@@ -4,4 +4,4 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - run: ehcho "${{ github.actor }}"
+      - run: echo "${{ github.actor }}"
